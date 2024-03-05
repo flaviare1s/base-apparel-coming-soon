@@ -15,25 +15,25 @@
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
-<body class="flex flex-col justify-center items-center m-auto h-screen lg:bg-bg-desktop lg:bg-no-repeat lg:bg-contain bg-left overflow-hidden">
+<body class="font-Josefin flex flex-col justify-center items-center m-auto h-screen">
 
-  <main class="flex flex-col lg:flex-row-reverse justify-center items-center w-full">
-    <div class="w-full lg:w-[40%]">
+  <main class="flex flex-col lg:flex-row-reverse justify-center items-center w-full lg:bg-bg-desktop lg:bg-no-repeat lg:bg-contain bg-left">
+    <div class="w-full lg:w-[45%]">
       <img class="lg:hidden py-[31px] px-8" src="../images/logo.svg" alt="Logo">
       <img class="lg:hidden w-full " src="../images/hero-mobile.jpg" alt="Hero Image">
       <img class="hidden lg:block" src="../images/hero-desktop.jpg" alt="Hero Image">
     </div>
     
-    <div class="lg:w-[60%]">
-      <img class="hidden lg:block" src="../images/logo.svg" alt="Logo">
-      <h1 class="text-4xl lg:text-[64px] tracking-[10.83px] lg:tracking-[17.32px] text-center lg:text-left px-8 pt-16">
+    <div class="lg:w-[55%]">
+      <img class="hidden lg:block px-[165px]" src="../images/logo.svg" alt="Logo">
+      <h1 class="uppercase text-4xl lg:text-[64px] tracking-[10.83px] lg:tracking-[17.32px] text-center lg:text-left px-8 lg:px-[165px] pt-16 pb-4">
         <span class="text-pele font-light leading-[42px] lg:leading-[64px]">We're </span> 
         <span class="text-dark font-semibold lg:leading-[71px]">coming soon</span></h1>
-      <p>
+      <p class="text-pele text-sm lg:text-base text-center lg:text-left px-8 lg:px-[165px] leading-[22px] lg:leading-[28px]">
         Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
-      <form>
+      <form class="my-8 flex justify-center">
         <input type="email" name="email" id="email" placeholder="Email Address">
         <button type="submit"></button>
       </form>

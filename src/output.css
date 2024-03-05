@@ -548,9 +548,22 @@ video {
   margin: auto;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -635,12 +648,30 @@ video {
   padding-right: 2rem;
 }
 
+.px-\[165\] {
+  padding-left: 165;
+  padding-right: 165;
+}
+
+.px-\[165px\] {
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-Josefin {
+  font-family: Josefin Sans, sans-serif;
 }
 
 .text-xs {
@@ -651,6 +682,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -665,12 +701,20 @@ video {
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .leading-\[\] {
   line-height: ;
 }
 
 .leading-\[42px\] {
   line-height: 42px;
+}
+
+.leading-\[22px\] {
+  line-height: 22px;
 }
 
 .tracking-\[\] {
@@ -769,12 +813,32 @@ video {
     background-repeat: no-repeat;
   }
 
+  .lg\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .lg\:px-\[164px\] {
+    padding-left: 164px;
+    padding-right: 164px;
+  }
+
+  .lg\:px-\[165px\] {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
 
   .lg\:text-\[64px\] {
     font-size: 64px;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:leading-\[\] {
@@ -787,6 +851,14 @@ video {
 
   .lg\:leading-\[71px\] {
     line-height: 71px;
+  }
+
+  .lg\:leading-\[28\] {
+    line-height: 28;
+  }
+
+  .lg\:leading-\[28px\] {
+    line-height: 28px;
   }
 
   .lg\:tracking-\[10\.32px\] {
