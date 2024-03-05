@@ -15,14 +15,28 @@
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
-<body class="font-Josefin">
+<body class="flex flex-col justify-center items-center m-auto h-screen lg:bg-bg-desktop lg:bg-no-repeat lg:bg-contain bg-left">
 
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+  <main class="flex flex-col lg:flex-row-reverse justify-center items-center w-full">
+    <div class="w-full lg:w-[40%]">
+      <img class="lg:hidden py-[31px] px-[32px]" src="../images/logo.svg" alt="Logo">
+      <img class="lg:hidden w-full " src="../images/hero-mobile.jpg" alt="Hero Image">
+      <img class="hidden lg:block" src="../images/hero-desktop.jpg" alt="Hero Image">
+    </div>
+    
+    <div class="lg:w-[60%]">
+      <img class="hidden lg:block" src="../images/logo.svg" alt="Logo">
+      <h1>We're <span>coming soon</span></h1>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form>
+        <input type="email" name="email" id="email" placeholder="Email Address">
+        <button type="submit"></button>
+      </form>
+    </div>
+  </main>
   
   <footer>
     <p class="text-xs text-center">

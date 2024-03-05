@@ -13,6 +13,9 @@ module.exports = {
         'rosa': '#EE8B8B',
         'light': '#DBDBDB',
       },
+      backgroundImage: {
+        'bg-desktop': ["url('../images/bg-pattern-desktop.svg')"],
+      },
     },
   },
   plugins: [],
