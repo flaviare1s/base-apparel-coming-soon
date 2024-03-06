@@ -638,11 +638,6 @@ video {
   --tw-border-opacity: 0.5;
 }
 
-.bg-rosa {
-  --tw-bg-opacity: 1;
-  background-color: rgb(238 139 139 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -653,18 +648,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-light {
-  --tw-gradient-from: #DBDBDB var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(219 219 219 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-rosa {
   --tw-gradient-to: #EE8B8B var(--tw-gradient-to-position);
-}
-
-.to-rosa-claro {
-  --tw-gradient-to: #F8BFBF var(--tw-gradient-to-position);
 }
 
 .bg-left {
@@ -792,18 +777,14 @@ video {
   opacity: 0.5;
 }
 
-.hover\:bg-rosa-claro:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 191 191 / var(--tw-bg-opacity));
+.hover\:from-light:hover {
+  --tw-gradient-from: #DBDBDB var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(219 219 219 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gradient-to-r:hover {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+.hover\:to-rosa-claro:hover {
+  --tw-gradient-to: #F8BFBF var(--tw-gradient-to-position);
 }
 
 .focus\:border-pele:focus {
@@ -877,16 +858,6 @@ video {
     background-image: url('../images/bg-pattern-desktop.svg');
   }
 
-  .lg\:from-light {
-    --tw-gradient-from: #DBDBDB var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(219 219 219 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  }
-
-  .lg\:to-rosa-claro {
-    --tw-gradient-to: #F8BFBF var(--tw-gradient-to-position);
-  }
-
   .lg\:bg-contain {
     background-size: contain;
   }
@@ -936,25 +907,5 @@ video {
 
   .lg\:tracking-\[17\.32px\] {
     letter-spacing: 17.32px;
-  }
-
-  .lg\:hover\:bg-gradient-to-r:hover {
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  }
-
-  .lg\:hover\:from-light:hover {
-    --tw-gradient-from: #DBDBDB var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(219 219 219 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  }
-
-  .lg\:hover\:from-white:hover {
-    --tw-gradient-from: #fff var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  }
-
-  .lg\:hover\:to-rosa-claro:hover {
-    --tw-gradient-to: #F8BFBF var(--tw-gradient-to-position);
   }
 }
