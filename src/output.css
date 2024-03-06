@@ -597,6 +597,10 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mt-\[92px\] {
+  margin-top: 92px;
+}
+
 .block {
   display: block;
 }
@@ -801,6 +805,16 @@ video {
   opacity: 0.5;
 }
 
+.hover\:bg-rosa:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 139 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-rosa-claro:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 191 191 / var(--tw-bg-opacity));
+}
+
 .focus\:border:focus {
   border-width: 1px;
 }
@@ -851,6 +865,10 @@ video {
 
   .lg\:ml-\[189px\] {
     margin-left: 189px;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:block {
