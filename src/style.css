@@ -1,0 +1,12 @@
+#email.invalid {
+    background-image: url('../images/icon-error.svg');
+    background-repeat: no-repeat;
+    border: 2px solid #F96464;
+    background-position: calc(100% - 72px) center;
+}
+
+@media (min-width: 1024px) {
+    #email.invalid {
+        background-position: calc(100% - 110px) center;
+    }
+  }

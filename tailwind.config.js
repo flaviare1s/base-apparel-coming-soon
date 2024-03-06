@@ -12,6 +12,7 @@ module.exports = {
         'pele': '#CE9898',
         'rosa': '#EE8B8B',
         'light': '#DBDBDB',
+        'erro': '#F96464',
       },
       backgroundImage: {
         'bg-desktop': ["url('../images/bg-pattern-desktop.svg')"],
